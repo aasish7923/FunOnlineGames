@@ -103,7 +103,7 @@ function NumberGame() {
   }, [level]);
 
   return (
-    <div className="flex flex-col items-center gap-5 min-h-screen bg-gray-100 p-5">
+    <div className="flex flex-col items-center gap-5 min-h-screen bg-[#F3F4F6] p-5">
         <h1 className="text-4xl font-bold mb-20">Number Game</h1>
     <div className="flex flex-col text-2xl font-bold mt-5 ">
       <div className="flex flex-col gap-4 items-center bg-gray-200 p-9 mx-auto rounded-xl">

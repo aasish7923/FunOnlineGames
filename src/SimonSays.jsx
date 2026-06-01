@@ -60,8 +60,8 @@ function SimonSays() {
   }
 
   return (
-    <div className="h-screen w-full flex flex-col justify-center items-center ">
-      <h2 className="text-3xl font-bold m-2">Copy! Copy!</h2>
+    <div className="h-screen w-full flex flex-col justify-center items-center bg-[#F3F4F6]">
+      <h2 className="text-3xl font-bold absolute top-20">Simon Says</h2>
       
       <div className="flex flex-col w-fit">
         <div className="flex justify-between">
