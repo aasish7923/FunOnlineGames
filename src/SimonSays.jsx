@@ -200,7 +200,7 @@ function SimonSays() {
           >
             Start Game
           </button>
-        ) : (<div className="flex gap-5 max-sm:flex-col max-sm:gap-0">
+        ) : (<div className="flex gap-5 flex-col max-sm:gap-0">
           <button
             onClick={() => onStart()}
             className="bg-red-400 px-9 py-3 rounded-xl text-2xl cursor-pointer mt-5 text-amber-50"
@@ -216,6 +216,7 @@ function SimonSays() {
           </div>
         )}
       </div>
+      <p></p>
       <p></p>
     </div>
   );
