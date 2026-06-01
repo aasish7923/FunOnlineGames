@@ -14,7 +14,7 @@ function SimonSays() {
 
   useEffect(() => {
     if (level !== null) {
-      const leng = level + 1;
+      const leng = level + 2;
       const a = Array.from(
         { length: leng },
         () => Math.floor(Math.random() * 9) + 1,
@@ -27,7 +27,7 @@ function SimonSays() {
 
         for (let i = 0; i < sequence.length; i++) {
           setHighlightedIndex(i);
-            await wait(20000);
+            await wait(200);
           setHighlightedIndex(null);
             await wait(100);
         }
